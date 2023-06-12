@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a91ebad51a5e50b419f4197e6e943751, type: 3}
+  m_Name: FishSprintingData
+  m_EditorClassIdentifier: 
+  TimeBeforeCanTransition: 0
+  CanTransitionStates: 24
+  CanAlwaysTransitionStates: 101
+  AllowedSubstates: -1
+  Duration: 0
+  StaminaCost: 10
+  StaminaRecoveryMultiplier: 0
+  StaminaNeeded: 10
+  IgnoreBeingTired: 0
+  AnimationID: 
+  MinMovement: 0.2
+  SpeedMultiplier: 1.5
+  Acceleration: 10
+  Deceleration: 10
+  FaceLockedTarget: 0
+  FaceLockedTargetWhenIdle: 1
+  LockedSpeedMultiplier: 1

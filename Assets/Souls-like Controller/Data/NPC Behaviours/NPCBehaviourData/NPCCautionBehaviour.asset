@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33046bac800fdae4b9c40b0d95578a41, type: 3}
+  m_Name: NPCCautionBehaviour
+  m_EditorClassIdentifier: 
+  Behaviour: 2
+  MinAggresionFactor: 0
+  MaxAggresionFactor: 40
+  AttackingState: {fileID: 11400000, guid: b122f916558dde64dbbe96ddc4cf1027, type: 2}
+  ChaseState: {fileID: 11400000, guid: 50d096531cbd2784aafc28c268a286db, type: 2}
+  HitstunnedState: {fileID: 11400000, guid: 0d466912f4cc7914dbe0f69951b931bf, type: 2}
+  WanderingState: {fileID: 11400000, guid: 5b18bd34ea4aba846bdb760aa0f7d1e3, type: 2}
+  WatchingState: {fileID: 11400000, guid: 3cdd190d50cc09148887680316d73db2, type: 2}
+  DodgingState: {fileID: 11400000, guid: b2335197ebbf7014cad973aacc2927c8, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281fc5354aeed094ea8cb2ee356f2472, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  Health: 800
+  UseRagdollOnDeath: 1
+  DeathAnimationID: 
+  UsesStamina: 1
+  MaxStamina: 100
+  StaminaRegeneration: 50
+  StaminaRegenerationDelay: 1
+  NotTiredPercentage: 50
+  StaminaCanGoBelowZero: 1
+  Strength: 75
+  Speed: 4
+  Poise: 20
+  PoiseRegeneration: 10
+  PoiseRegenerationDelay: 1
+  WalkingMovementData: {fileID: 11400000, guid: b3acf432db3125a41abe22f92b5ff37d, type: 2}
+  SprintingMovementData: {fileID: 11400000, guid: 9d70ace2cf601974fa02a161cea1ad1a, type: 2}
+  AirbornMovementData: {fileID: 11400000, guid: fefb11d2ab30c3f47bfbce996aac0f8b, type: 2}
+  DodgeData: {fileID: 11400000, guid: 96d6397bd3312214aadb5186bf2bc6ea, type: 2}
+  GroundedPhysicsData: {fileID: 11400000, guid: 644d305c95b08df49a8cb26d827df431, type: 2}
+  AirbornPhysicsData: {fileID: 11400000, guid: beebfc90e6fc77646a3ad1bb914b86fc, type: 2}
+  StartingRightHandEquipment: {fileID: 11400000, guid: f91ac488b2a20ee4d8cf15c559bb1878, type: 2}
+  StartingLeftHandEquipment: {fileID: 11400000, guid: 17397272dc95dc041949192018c72621, type: 2}
+  HitstunData: {fileID: 11400000, guid: 032e68f16282e3d479842df8b6317dd7, type: 2}

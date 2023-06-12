@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FishLeftArm
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Axe
+    m_Weight: 0
+  - m_Path: Axe/Hacha Lowpoly
+    m_Weight: 0
+  - m_Path: Axe/Hacha Lowpoly/Cube
+    m_Weight: 0
+  - m_Path: Axe/Hacha Lowpoly/Cube.001
+    m_Weight: 0
+  - m_Path: Axe/Retopo_spiral base poly.002
+    m_Weight: 0
+  - m_Path: Base AxeGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish
+    m_Weight: 0
+  - m_Path: Base Clownfish_DorsalFin_2.1Gizmo
+    m_Weight: 0
+  - m_Path: Base Clownfish_DorsalFin_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_L_BackGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_L_CentralGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_L_FrontGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_R_BackGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_R_CentralGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_EyeBrow_R_FrontGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_HeadGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_JawGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Central_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Central_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Lower_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Lower_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Upper_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_Anemone_Upper_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_EyeLid_LowerGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_L_EyeLid_UpperGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_LCalfGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_LFootGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_LThighGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Central_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Central_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Lower_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Lower_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Upper_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_Anemone_Upper_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_EyeLid_LowerGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_R_EyeLid_UpperGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_RCalfGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_RFootGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFish_RThighGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_L1_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_L1_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_L2_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_L2_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_R1_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_R1_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_R2_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_R2_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_ShoulderL1_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_ShoulderL1_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_ShoulderR1_1Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishAnemone_ShoulderR1_2Gizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishLPlatform
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_LThigh
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_LThigh/Base ClownFish_LCalf
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_LThigh/Base ClownFish_LCalf/Base
+      ClownFish_LFoot
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_LThigh/Base ClownFish_LCalf/Base
+      ClownFish_LFoot/BaseClownFish_LDigit11
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_RThigh
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_RThigh/Base ClownFish_RCalf
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_RThigh/Base ClownFish_RCalf/Base
+      ClownFish_RFoot
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_RThigh/Base ClownFish_RCalf/Base
+      ClownFish_RFoot/Base ClownFish_FootBone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFish_RThigh/Base ClownFish_RCalf/Base
+      ClownFish_RFoot/Base HumanRDigit11
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_L1_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_L1_1/Base ClownFishAnemone_L1_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_L2_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_L2_1/Base ClownFishAnemone_L2_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_R1_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_R1_1/Base ClownFishAnemone_R1_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_R2_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishAnemone_R2_1/Base ClownFishAnemone_R2_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base Clownfish_DorsalFin_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base Clownfish_DorsalFin_2/Base Clownfish_DorsalFin_2.1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFish_LCollarbone
+    m_Weight: 1
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFish_LCollarbone/Base HumanLUpperarm
+    m_Weight: 1
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFish_LCollarbone/Base HumanLUpperarm/Base
+      HumanLForearm
+    m_Weight: 1
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFish_LCollarbone/Base HumanLUpperarm/Base
+      HumanLForearm/Base HumanLPalm
+    m_Weight: 1
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFish_LCollarbone/Base HumanLUpperarm/Base
+      HumanLForearm/Base HumanLPalm/Base Shield
+    m_Weight: 1
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFishAnemone_ShoulderL1_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFishAnemone_ShoulderL1_1/Base ClownFishAnemone_ShoulderL1_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFishAnemone_ShoulderR1_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base ClownFishAnemone_ShoulderR1_1/Base ClownFishAnemone_ShoulderR1_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRCollarbone
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRCollarbone/Base HumanRUpperarm
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRCollarbone/Base HumanRUpperarm/Base
+      HumanRForearm
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRCollarbone/Base HumanRUpperarm/Base
+      HumanRForearm/Base HumanRPalm
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRCollarbone/Base HumanRUpperarm/Base
+      HumanRForearm/Base HumanRPalm/Base Axe
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_L_Back
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_L_Central
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_L_Front
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_R_Back
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_R_Central
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_EyeBrow_R_Front
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_Jaw
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Central_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Central_1/Base ClownFish_L_Anemone_Central_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Lower_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Lower_1/Base ClownFish_L_Anemone_Lower_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Upper_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_Anemone_Upper_1/Base ClownFish_L_Anemone_Upper_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_EyeLid_Lower
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_L_EyeLid_Upper
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Central_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Central_1/Base ClownFish_R_Anemone_Central_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Lower_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Lower_1/Base ClownFish_R_Anemone_Lower_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Upper_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_Anemone_Upper_1/Base ClownFish_R_Anemone_Upper_2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_EyeLid_Lower
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base ClownFish_R_EyeLid_Upper
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_002
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_002/Base HumanBase ClownFish_Fin_1Bone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_003
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_003/Base HumanBase ClownFish_Fin_1Bone002
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_Fin_004
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_L_Eye
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base ClownFishSpine1/Base ClownFishSpine2/Base ClownFishSpine3/Base
+      HumanSpine4/Base ClownFishRibcage/Base HumanRibcageBone004/Base HumanRibcageBone004Bone001/Base
+      ClownFish_Head/Base HumanBase ClownFish_R_Eye
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      Human3Bone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4/Base Human4Bone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4/Base HumanTail5
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4/Base HumanTail5/Base Human5Bone001
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4/Base HumanTail5/Base Human5Bone002
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvis/Base HumanTail1/Base HumanTail2/Base HumanTail3/Base
+      HumanTail4/Base HumanTail5/Base Human5Bone002 1
+    m_Weight: 0
+  - m_Path: Base ClownFishPelvisGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishRibcageGizmo
+    m_Weight: 0
+  - m_Path: Base ClownFishRPlatform
+    m_Weight: 0
+  - m_Path: Base Human3Bone001Gizmo
+    m_Weight: 0
+  - m_Path: Base Human4Bone001Gizmo
+    m_Weight: 0
+  - m_Path: Base Human5Bone001Gizmo
+    m_Weight: 0
+  - m_Path: Base Human5Bone002Gizmo
+    m_Weight: 0
+  - m_Path: Base Human5Bone002Gizmo 1
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_1Bone001Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_1Bone002Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_1Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_002Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_003Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_Fin_004Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_R_EyeGizmo
+    m_Weight: 0
+  - m_Path: Base HumanBase ClownFish_R_EyeGizmo 1
+    m_Weight: 0
+  - m_Path: Base HumanLForearmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanLIKTarget
+    m_Weight: 0
+  - m_Path: Base HumanLPalmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanLUpperarmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanPalmBone002Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanRForearmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanRibcageBone004Bone001Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanRIKTarget
+    m_Weight: 0
+  - m_Path: Base HumanRPalmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanRUpperarmGizmo
+    m_Weight: 0
+  - m_Path: Base HumanTail2Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanTail4Gizmo
+    m_Weight: 0
+  - m_Path: Base HumanTail5Gizmo
+    m_Weight: 0
+  - m_Path: Eye_L
+    m_Weight: 0
+  - m_Path: Eye_R
+    m_Weight: 0
+  - m_Path: EyeLids
+    m_Weight: 0
+  - m_Path: Retopo_Anemona
+    m_Weight: 0
+  - m_Path: Retopo_Body
+    m_Weight: 0
+  - m_Path: Retopo_Brazos
+    m_Weight: 0
+  - m_Path: Shield
+    m_Weight: 1
+  - m_Path: Shield/Coral LowPoly
+    m_Weight: 1
+  - m_Path: Shield/Cube.003
+    m_Weight: 1
+  - m_Path: Shield/Retopo_Lowpoly
+    m_Weight: 1

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f236c520bf85e143b8f2becd2b2533c, type: 3}
+  m_Name: HumanRollData
+  m_EditorClassIdentifier: 
+  TimeBeforeCanTransition: 0.85
+  CanTransitionStates: 13
+  CanAlwaysTransitionStates: 96
+  AllowedSubstates: 0
+  Duration: 1
+  StaminaCost: 15
+  StaminaRecoveryMultiplier: 0
+  StaminaNeeded: 5
+  IgnoreBeingTired: 1
+  AnimationID: Roll
+  MaxSpeed: 5
+  MovementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.038599387
+      outSlope: -0.038599387
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.9255106
+    - serializedVersion: 3
+      time: 0.09999121
+      value: 1
+      inSlope: 0.0000010015573
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.746231
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.89761895
+      value: 1
+      inSlope: -0
+      outSlope: -2.3999996
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TimeBeforeCantRotate: 0.1
+  FaceTarget: 0
+  RotateAroundTarget: 0
+  TimeBeforeIntangible: 0
+  IntangibleDuration: 0.7

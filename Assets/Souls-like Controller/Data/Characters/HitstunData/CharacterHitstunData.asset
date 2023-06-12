@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ba583fa1c6e1d4a94e1de54c41595a, type: 3}
+  m_Name: CharacterHitstunData
+  m_EditorClassIdentifier: 
+  TimeBeforeCanTransition: 0.9
+  CanTransitionStates: 24
+  CanAlwaysTransitionStates: 97
+  AllowedSubstates: 0
+  Duration: 1.2
+  StaminaCost: 0
+  StaminaRecoveryMultiplier: 0
+  StaminaNeeded: 0
+  IgnoreBeingTired: 0
+  AnimationID: Hitstun

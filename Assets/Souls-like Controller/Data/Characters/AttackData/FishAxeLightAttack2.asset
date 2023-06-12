@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b383e7eec1160c043b9ac499cf41144c, type: 3}
+  m_Name: FishAxeLightAttack2
+  m_EditorClassIdentifier: 
+  TimeBeforeCanTransition: 0.9
+  CanTransitionStates: 24
+  CanAlwaysTransitionStates: 101
+  AllowedSubstates: 0
+  Duration: 1.2
+  StaminaCost: 15
+  StaminaRecoveryMultiplier: 0
+  StaminaNeeded: 5
+  IgnoreBeingTired: 1
+  AnimationID: LightAttack2
+  TimeTillCantRotate: 0.7
+  MaxSpeed: 5
+  RotationSpeed: 0.2
+  AttackTagetDirection: 1
+  TimeToComboAttack: 1.4
+  TimeToActivateDamage: 0.55
+  ActiveDamageDuration: 0.25
+  DamageMultiplier: 1
+  HyperArmor: 40
+  MovementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.42285258
+      value: 0.0028489977
+      inSlope: Infinity
+      outSlope: 0
+      tangentMode: 7
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7298657
+    - serializedVersion: 3
+      time: 0.5169673
+      value: 1
+      inSlope: 0.050691348
+      outSlope: Infinity
+      tangentMode: 97
+      weightedMode: 0
+      inWeight: 0.65650964
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.67431706
+      value: 1
+      inSlope: Infinity
+      outSlope: 0
+      tangentMode: 7
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6319038
+    - serializedVersion: 3
+      time: 0.77945405
+      value: 0.0028489977
+      inSlope: -0.22526915
+      outSlope: Infinity
+      tangentMode: 97
+      weightedMode: 0
+      inWeight: 0.741679
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
