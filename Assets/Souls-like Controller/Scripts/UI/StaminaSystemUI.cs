@@ -35,7 +35,7 @@ public class StaminaSystemUI : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        if (!newController.characterData.UsesStamina)
+        if (!newController.CharacterData.UsesStamina)
         {
             Destroy(gameObject);
             return;

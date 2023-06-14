@@ -9,7 +9,7 @@ public class PhysicsGrounded : PhysicsState
     public PhysicsGrounded(CharacterStatesController controller)
     {
         this.controller = controller;
-        this.physicsData = controller.characterData.GroundedPhysicsData;
+        this.physicsData = controller.CharacterData.GroundedPhysicsData;
         movementRecord = controller.MovementRecord;
     }
 

@@ -198,6 +198,11 @@ public class PlayerInputsManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void OnExit()
+    {
+        Application.Quit();
+    }
 }
 
 class Input

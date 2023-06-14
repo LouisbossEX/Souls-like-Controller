@@ -35,7 +35,7 @@ public class HealthSystem : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         controller = GetComponent<CharacterStatesController>();
 
-        characterData = controller.characterData;
+        characterData = controller.CharacterData;
         maxHealth = characterData.Health;
         currentHealth = MaxHealth;
 

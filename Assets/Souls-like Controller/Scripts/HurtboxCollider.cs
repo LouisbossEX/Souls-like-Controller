@@ -83,7 +83,7 @@ public class HurtboxCollider : MonoBehaviour
             else if (WeaponSlot == EWeaponSlot.LEFT)
                 weaponUsed = controller.leftHandEquipment;
             
-            healthSystem.TakeDamage(controller.characterData, weaponUsed, controller.attackState.GetCurrentAttackData());
+            healthSystem.TakeDamage(controller.CharacterData, weaponUsed, controller.attackState.GetCurrentAttackData());
             
             charactersHit.Add(other.gameObject);
             

@@ -24,7 +24,7 @@ public class HitstunState : IStateBehaviour
         this.controller = controller;
         _animator = controller.Animator;
         movementRecord = controller.MovementRecord;
-        hitstunData = controller.characterData.HitstunData;
+        hitstunData = controller.CharacterData.HitstunData;
     }
     
     public void OnEnter()

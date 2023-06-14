@@ -6,7 +6,7 @@ public class AirbornMovement : MovementState
 {
     public AirbornMovement(CharacterStatesController controller)
     {
-        this.movementData = controller.characterData.AirbornMovementData;
+        this.movementData = controller.CharacterData.AirbornMovementData;
         this.controller = controller;
         this.movementRecord = controller.MovementRecord;
         this.playerTransform = controller.transform;
@@ -30,7 +30,7 @@ public class AirbornMovement : MovementState
     {
         Vector2 direction = movementRecord.MovementDirection;
 	    
-        float targetSpeed = (!controller.IsLocked ? (controller.characterData.Speed * movementData.SpeedMultiplier) : (controller.characterData.Speed * movementData.LockedSpeedMultiplier)) * direction.magnitude;
+        float targetSpeed = (!controller.IsLocked ? (controller.CharacterData.Speed * movementData.SpeedMultiplier) : (controller.CharacterData.Speed * movementData.LockedSpeedMultiplier)) * direction.magnitude;
 
         if (direction.magnitude < movementData.MinMovement)
             targetSpeed = 0.0f;

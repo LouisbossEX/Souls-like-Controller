@@ -35,9 +35,9 @@ public class GroundMovement : MovementState
 	    float targetSpeed;
 	    
 	    if(controller.behaviourState == ECharacterState.SPRINTING)
-		    targetSpeed = controller.characterData.Speed * movementData.SpeedMultiplier * movementRecord.HorizontalSpeedMultiplier;
+		    targetSpeed = controller.CharacterData.Speed * movementData.SpeedMultiplier * movementRecord.HorizontalSpeedMultiplier;
 	    else
-			targetSpeed = (!controller.IsLocked ? (controller.characterData.Speed * movementData.SpeedMultiplier) : (controller.characterData.Speed * movementData.LockedSpeedMultiplier)) * direction.magnitude * movementRecord.HorizontalSpeedMultiplier;
+			targetSpeed = (!controller.IsLocked ? (controller.CharacterData.Speed * movementData.SpeedMultiplier) : (controller.CharacterData.Speed * movementData.LockedSpeedMultiplier)) * direction.magnitude * movementRecord.HorizontalSpeedMultiplier;
 
         if (direction.magnitude < movementData.MinMovement)
             targetSpeed = 0.0f;
@@ -67,7 +67,7 @@ public class GroundMovement : MovementState
 		//_animationBlendRight = direction.x * _speed / (controller.characterData.Speed * movementData.SpeedMultiplier);
 		animationBlendForward = Mathf.Lerp(animationBlendForward, targetSpeed * direction.y, Time.deltaTime * speedChange);
 		animationBlendRight = Mathf.Lerp(animationBlendRight, targetSpeed * direction.x, Time.deltaTime * speedChange);
-		animationBlend = speed / controller.characterData.Speed;
+		animationBlend = speed / controller.CharacterData.Speed;
 
 		Vector2 inputDirection = direction.normalized;
 		

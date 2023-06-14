@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class CharacterStatesController : MonoBehaviour
 {
-	public CharacterData characterData;
+	[FormerlySerializedAs("characterData")] public CharacterData CharacterData;
 	
 	private CharacterController characterController;
 	[HideInInspector] public CollisionFlags collisionFlags;
@@ -29,6 +29,7 @@ public class CharacterStatesController : MonoBehaviour
 	private IStateBehaviour sprintingMovement;
 	private IStateBehaviour airbornMovement;
 	private IStateBehaviour dodgeState;
+	private IStateBehaviour hitstunState;
 	[HideInInspector] public AttackingState attackState;
 
 	private PhysicsState groundedPhysics;
@@ -37,8 +38,6 @@ public class CharacterStatesController : MonoBehaviour
 	private ISubstateBehaviour blockingSubstate;
 	private ISubstateBehaviour nothingSubstate;
 	
-	private IStateBehaviour hitstunState;
-
 	public IStateBehaviour currentBehaviourState;
 	public PhysicsState currentPhysicsState;
 	public ISubstateBehaviour currentSubstate;
@@ -66,36 +65,36 @@ public class CharacterStatesController : MonoBehaviour
 	{
 		Animator = GetComponentInChildren<Animator>();
 		characterController = GetComponent<CharacterController>();
-		TimeMoving = new ClampedFloatValue(0f, 0f, characterData.WalkingMovementData.Acceleration);
+		TimeMoving = new ClampedFloatValue(0f, 0f, CharacterData.WalkingMovementData.Acceleration);
 		
 		HealthSystem = GetComponent<HealthSystem>();
 		
 		MovementRecord = new MovementRecord();
-		StaminaSystem = new StaminaSystem(characterData);
+		StaminaSystem = new StaminaSystem(CharacterData);
 
 		attacksHurtboxController = GetComponentInChildren<AttacksHurtboxController>();
 
 		if (leftHandEquipment == null)
-			leftHandEquipment = characterData.StartingLeftHandEquipment;
+			leftHandEquipment = CharacterData.StartingLeftHandEquipment;
 		
 		if (rightHandEquipment == null)
-			rightHandEquipment = characterData.StartingRightHandEquipment;
+			rightHandEquipment = CharacterData.StartingRightHandEquipment;
 	}
 
 	void Start()
 	{
 		//Behaviour states
-		if(characterData.WalkingMovementData != null)
-			walkingMovement = new GroundMovement(this, characterData.WalkingMovementData);
-		if(characterData.SprintingMovementData != null)
-			sprintingMovement = new GroundMovement(this, characterData.SprintingMovementData);
-		if(characterData.AirbornMovementData != null)
+		if(CharacterData.WalkingMovementData != null)
+			walkingMovement = new GroundMovement(this, CharacterData.WalkingMovementData);
+		if(CharacterData.SprintingMovementData != null)
+			sprintingMovement = new GroundMovement(this, CharacterData.SprintingMovementData);
+		if(CharacterData.AirbornMovementData != null)
 			airbornMovement = new AirbornMovement(this);
-		if(characterData.DodgeData != null)
+		if(CharacterData.DodgeData != null)
 			dodgeState = new DodgingState(this);
-		if(characterData.StartingRightHandEquipment != null || rightHandEquipment != null)
+		if(CharacterData.StartingRightHandEquipment != null || rightHandEquipment != null)
 			attackState = new AttackingState(this);
-		if(characterData.HitstunData != null)
+		if(CharacterData.HitstunData != null)
 			hitstunState = new HitstunState(this);
 
 		//Physics states
@@ -236,7 +235,7 @@ public class CharacterStatesController : MonoBehaviour
 
 		currentBehaviourState = newBehaviourState;
 		
-		StaminaSystem.SetCurrentRecovery(characterData.StaminaRegeneration);
+		StaminaSystem.SetCurrentRecovery(CharacterData.StaminaRegeneration);
 
 		currentBehaviourState.OnEnter();
 
@@ -264,7 +263,7 @@ public class CharacterStatesController : MonoBehaviour
 		bool hasEnoughStamina = StaminaSystem.CurrentStamina >= newStateData.StaminaNeeded || newStateData.StaminaNeeded <= 0;
 		bool isTired = StaminaSystem.IsTired && !newStateData.IgnoreBeingTired;
 		
-		return (hasEnoughStamina && !isTired) || !characterData.UsesStamina;
+		return (hasEnoughStamina && !isTired) || !CharacterData.UsesStamina;
 	}
 	
 	public void ChangePhysicsState(EPhysicsState newState)

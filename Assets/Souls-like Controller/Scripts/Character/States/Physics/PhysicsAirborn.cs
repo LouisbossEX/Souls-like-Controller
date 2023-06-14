@@ -5,7 +5,7 @@ public class PhysicsAirborn : PhysicsState
     public PhysicsAirborn(CharacterStatesController controller)
     {
         this.controller = controller;
-        this.physicsData = controller.characterData.AirbornPhysicsData;
+        this.physicsData = controller.CharacterData.AirbornPhysicsData;
         movementRecord = controller.MovementRecord;
     }
 

@@ -19,7 +19,7 @@ public class DodgingState : IStateBehaviour
     {
         this.controller = controller;
         this.movementRecord = controller.MovementRecord;
-        this.dodgeData = controller.characterData.DodgeData;
+        this.dodgeData = controller.CharacterData.DodgeData;
         this.staminaSystem = controller.StaminaSystem;
         this.animator = controller.Animator;
         this.playerTransform = controller.transform;
